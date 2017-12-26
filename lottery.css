@@ -1,0 +1,373 @@
+@font-face{
+    font-family: 'rubik';
+    src: url('Rubik-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'brandon';
+    src: url('Brandon.otf');
+}
+
+@font-face{
+    font-family: 'binail';
+    src: url('binail.ttf');
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0px auto;
+    font-family: rubik;
+    height: 1800px;
+}
+
+#top1{
+    width: 1349px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+#logo{
+    width: 200px;
+    height: 75px;
+    background-color: ;
+    margin-top: 12px;
+    margin-left: 12px;
+    position: absolute;
+    text-align: center;
+    font-family: rubik;
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+    line-height: 80px;
+}
+
+#textbox1{
+    border: 3px solid lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 300px;
+    height: 30px;
+    margin-left: 250px;
+    margin-top: 30px;
+    border-right: 0;
+    padding-left: 10px;
+    font-family: rubik;
+    position: absolute;
+}
+
+#search{
+    background-color: yellow;
+    border: 0;
+    height: 38px;
+    cursor: pointer;
+    font-family: rubik;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 563px;
+}
+
+#cart{
+    width: 100px;
+    height: 38px;
+    background-color: ;
+    position: absolute;
+    margin-left: 1215px;
+    margin-top: 30px;
+    color: white;
+    font-family: rubik;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 38px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+#cart img{
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#my-account{
+    width: 140px;
+    height: 38px;
+    background-color: ;
+    position: absolute;
+    margin-left: 1030px;
+    margin-top: 30px;
+    color: white;
+    font-family: rubik;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 38px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+#my-account img{
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#featured-deals{
+    width: 273px;
+    height: 30px;
+    background-color: ;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 155%;
+    font-weight: bold;
+}
+
+#quote{
+    width: 440px;
+    height: 300px;
+    background-color: ;
+    position: absolute;
+    margin-left: 454.5px;
+    margin-top: 180px;
+    text-align: center;
+}
+
+#comma1{
+    color: yellow;
+    font-family: brandon;
+    font-size: 700%;
+    margin-top: -95px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#comma2{
+    color: yellow;
+    font-family: brandon;
+    font-size: 700%;
+    margin-top: -120px;
+    float: ;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#quote p{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#left-product{
+    width: 300px;
+    height: 400px;
+    background-color: ;
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -380px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#right-product{
+    width: 300px;
+    height: 400px;
+    background-color: ;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: -380px;
+    cursor: pointer;
+}
+
+#left-product img{
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#right-product img{
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#left-base{
+    width: 300px;
+    height: 130px;
+    background-color: ;
+    margin-top: -4px;
+    position: absolute;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 180%;
+    font-weight: bold;
+    line-height: 37px;
+    padding-top: 10px;
+}
+
+.enternow{
+    background-color: yellow;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-family: rubik;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.enternow:hover{
+    background-color: #ffd600;
+    cursor: pointer;
+}
+
+#right-base{
+    width: 300px;
+    height: 130px;
+    background-color: ;
+    margin-top: -4px;
+    position: absolute;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-top: 10px;
+    font-size: 180%;
+    font-weight: bold;
+    line-height: 37px;
+    padding-top: 10px;
+}
+
+#samsung{
+    width: 1240px;
+    height: 363px;
+    background-color: ;
+    margin-top: 710px;
+    margin-left: 55px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#samsung img{
+    border-radius: 7px;
+    position: absolute;
+    border: 1px solid #bdbdbd;
+    filter: contrast(130%);
+}
+
+#tv-text{
+    width: 390px;
+    height: 70px;
+    background-color: ;
+    position: absolute;
+    margin-top: 751px;
+    margin-left: 435px;
+    cursor: pointer;
+}
+
+#tv-text p{
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+#tv-text span{
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 140px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+#tv-text button{
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 130%;
+    font-weight: bold;
+    font-family: rubik;
+    margin-left: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#tv-text button:hover{
+    background-color: #ffd600;
+}
+
+#how-it-works{
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 374.5px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#bottom-base{
+    width: 1349px;
+    height: 200px;
+    background-color: darkblue;
+    margin-top: 1499px;
+}
+
+#know-us{
+    width: 200px;
+    height: 120px;
+    background-color: ;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+#know-us ul{
+    font-family: rubik;
+    font-weight: bold;
+    color: white;
+    font-size: 105%;
+    line-height: 25px;
+}
+
+#know-us ul li{
+    font-weight: normal;
+    font-family: rubik;
+    font-size: 90%;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 720px)
+{
+    #top1{
+        width: 270px;
+        height: 50px;
+        background-color: red;
+}
+}
